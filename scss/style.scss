@@ -1,0 +1,83 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1172px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 40px;
+  border: none;
+  background-color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 31px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 31px;
+  color: var(--main-color);
+  margin-bottom: 27px;
+  line-height: 56px;
+  @media (max-width: 426px) {
+    font-size: 33px;
+    line-height: 38px;
+    margin-bottom: 12px;
+  }
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text-color);
+  max-width: 623px;
+  text-align: center;
+  margin: 0 auto;
+  @media (max-width: 426px) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* Colors */
+:root {
+  --main-color: #BC4747;
+  --second-color: #474747;
+  --text-color: #5E5E5E;
+  --white-color: #FFFFFF;
+}
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/services";
+@import "blocks/proffesional";
+@import "blocks/aboutme";
+@import "blocks/work";
+@import "blocks/info";
+@import "blocks/quote";
+@import "blocks/faqs";
+@import "blocks/contact";
+@import "blocks/subfooter";
+@import "blocks/footer";

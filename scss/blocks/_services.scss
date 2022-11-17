@@ -1,0 +1,72 @@
+.services {
+  padding-top: 180px;
+  padding-bottom: 80px;
+  background: #FBFBFB;
+  &__title {
+    text-align: center;
+  }
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+  }
+  &__block {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.06);
+    padding: 50px 28px 28px 28px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 30%;
+    margin-top: 80px;
+  }
+  &__big {
+    position: absolute;
+    top: -40px;
+    background-color: var(--main-color);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__round {
+    width: 35px; 
+    height: 35px; 
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 31px;
+    color: var(--second-color);
+    text-align: center;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--second-color);
+    text-align: center;
+  }
+  @media (max-width: 769px) {
+    padding-top: 75px;
+    &__block {
+      width: 40%;
+    }
+  }
+  @media (max-width: 426px) {
+    &__block {
+      width: 100%;
+    }
+  }
+}
