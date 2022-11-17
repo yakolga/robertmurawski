@@ -16,13 +16,13 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  function scrollToElement(selector) {
-    $('html, body').animate({
-      scrollTop: $(selector).offset().top
-    }, 2000);
-  };
+  //faqs 
 
-  $(document).on('click', 'a.smooth', function () {
-    scrollToElement($(this).attr('href'));
+  const faqs = document.querySelectorAll(".faq__faq"); 
+
+  faqs.forEach(faq => {
+    faq.addEventListener('click', () =>  {
+      faq.classList.toggle("active")
+    });
   });
 });
