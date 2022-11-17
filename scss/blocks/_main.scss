@@ -8,6 +8,9 @@
   &__container {
     position: relative;
   }
+  &__image {
+    display: flex;
+  }
   &__cancelary {
     font-family: 'Dancing Script';
     font-weight: 600;

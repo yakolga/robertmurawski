@@ -23,6 +23,9 @@
   }
   &__li {
     margin-bottom: 12px;
+    &:hover {
+      color: var(--text-color);
+    }
   }
   &__link {
     font-weight: 500;
