@@ -16,13 +16,13 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  function scrollToElement(selector) {
-    $('html, body').animate({
-      scrollTop: $(selector).offset().top
-    }, 2000);
-  };
+//   function scrollToElement(selector) {
+//     $('html, body').animate({
+//       scrollTop: $(selector).offset().top
+//     }, 2000);
+//   };
 
-  $(document).on('click', 'a.smooth', function () {
-    scrollToElement($(this).attr('href'));
-  });
+//   $(document).on('click', 'a.smooth', function () {
+//     scrollToElement($(this).attr('href'));
+//   });
 });
