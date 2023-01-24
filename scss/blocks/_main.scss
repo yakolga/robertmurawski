@@ -8,6 +8,9 @@
   &__container {
     position: relative;
   }
+  &__image {
+    display: flex;
+  }
   &__cancelary {
     font-family: 'Dancing Script';
     font-weight: 600;
@@ -81,13 +84,6 @@
     padding-top: 152px;
     &__wrapper {
       flex-direction: column;
-    }
-    &__image {
-      height: 400px; 
-      img {
-        object-fit: cover;
-        height: 400px;
-      }
     }
     &__info {
       display: flex;
