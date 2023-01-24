@@ -15,6 +15,14 @@ window.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("header__list_active");
     });
   });
+  
+  const faqs = document.querySelectorAll(".faq__faq"); 
+
+  faqs.forEach(faq => {
+    faq.addEventListener('click', () =>  {
+      faq.classList.toggle("active")
+    });
+  });
 
 //   function scrollToElement(selector) {
 //     $('html, body').animate({
