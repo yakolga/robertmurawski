@@ -15,7 +15,9 @@ window.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("header__list_active");
     });
   });
-  
+
+  //faqs 
+
   const faqs = document.querySelectorAll(".faq__faq"); 
 
   faqs.forEach(faq => {
@@ -23,14 +25,4 @@ window.addEventListener("DOMContentLoaded", () => {
       faq.classList.toggle("active")
     });
   });
-
-//   function scrollToElement(selector) {
-//     $('html, body').animate({
-//       scrollTop: $(selector).offset().top
-//     }, 2000);
-//   };
-
-//   $(document).on('click', 'a.smooth', function () {
-//     scrollToElement($(this).attr('href'));
-//   });
 });
