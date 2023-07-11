@@ -15,7 +15,7 @@
     <div class="header__container container">
       <div class="header__wrapper">
         <a href="index.html" class="header__logo">
-          <img src="images/logo.jpg" alt="logo">
+          <img src="images/logo.svg" alt="logo">
         </a>
         <div class="header__contacts">
           <div class="header__contact">
@@ -52,12 +52,22 @@
       <div class="header__container container">
         <nav class="header__nav">
           <ul class="header__ul">
-            <li class="header__li"><a href="" class="header__link">Strona główna</a></li>
-            <li class="header__li"><a href="" class="header__link">Strona wyborcza</a></li>
-            <li class="header__li"><a href="" class="header__link">O mnie</a></li>
-            <li class="header__li"><a href="" class="header__link">Kancelaria</a></li>
-            <li class="header__li"><a href="" class="header__link">Specjalizacje</a></li>
-            <li class="header__li"><a href="" class="header__link">Kontakt</a></li>
+            <li class="header__li"><a href="/" class="header__link">Strona główna</a></li>
+            <li class="header__li"><a href="o-mnie.html" class="header__link">O mnie</a></li>
+            <li class="header__li"><a href="kancelaria.html" class="header__link">Kancelaria</a></li>
+            <li class="header__li"><a href="kontakt.html" class="header__link">Kontakt</a></li>
+            <li class="header__li"><a href="specjalizacje.html" class="header__link">Specjalizacje</a><i class="arrow down"></i>
+              <ul class="header__ul-sub">
+                <li class="header__ul-item"><a class="header__ul-link" href="alimenty-szczecin.html">Alimenty</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="odszkodowania-szczecin.html">Odszkodowania</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="podzial-majatku-szczecin.html">Podział majątku</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="porady-prawne-szczecin.html">Porady prawne</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="prawo-cywilne-szczecin.html">Prawo cywilne</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="prawo-karne-szczecin.html">Prawo karne</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="prawo-spadkowe-szczecin.html">Prawo spadkowe</a></li>
+                <li class="header__ul-item"><a class="header__ul-link" href="rozwod-szczecin.html">Rozwód</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <div class="header__hamburger hamburger">
@@ -75,13 +85,13 @@
           <div class="main__info">
             <div class="main__gradient"></div>
             <span class="main__cancelary">Kancelaria Adwokacka</span>
-            <h1 class="main__title">Robert Murawski</h1>
-            <p class="main__text">Potrzebujesz pomocy prawnej?
-              Wspólnie znajdziemy najlepsze rozwiązanie Twojego problemu.</p>
-            <button class="main__button button">Dowiedź się więcej</button>
+            <h2 class="main__title">Robert Murawski</h2>
+            <p class="main__text">Kancelaria adwokacka w Szczecinie świadczy kompleksową pomoc prawną na najwyższym poziomie na rzecz najbardziej
+            wymagających klientów. Zajmujemy się obsługą klientów indywidualnych oraz przedsiębiorców.</p>
+            <a href="#uslugi" class="main__button button">Dowiedź się więcej</a>
           </div>
           <div class="main__image">
-            <img src="images/zdj.png" alt="Robert Murawski">
+            <img src="images/zdj.webp" alt="Robert Murawski">
           </div>
         </div>
       </div>
@@ -91,30 +101,28 @@
         <div class="proffesional__absolute">
           <div class="proffesional__blocks">
             <div class="proffesional__block grey">
-              <h2 class="proffesional__subtitle">Profesjonalne podejście</h2>
-              <p class="proffesional__paragraph">Potrzebujesz pomocy prawnej?
-                Wspólnie znajdziemy najlepsze rozwiązanie Twojego problemu.</p>
+              <h2 class="proffesional__subtitle">Indywidualne podejście</h2>
+              <p class="proffesional__paragraph">Potrzebujesz kompleksowej pomocy prawnej? Postaramy się znaleźć najskuteczniejsze rozwiązanie dla danego problemu.</p>
             </div>
             <div class="proffesional__block red">
-              <h2 class="proffesional__subtitle">Profesjonalne podejście</h2>
-              <p class="proffesional__paragraph">Potrzebujesz pomocy prawnej?
-                Wspólnie znajdziemy najlepsze rozwiązanie Twojego problemu.</p>
+              <h2 class="proffesional__subtitle">Wieloletnie doświadczenie</h2>
+              <p class="proffesional__paragraph">Działamy w Szczecinie i okolicach od wielu lat, a także mamy na koncie wiele wygranych spraw. Możemy wygrać również i
+              Twoją.</p>
             </div>
             <div class="proffesional__block grey">
-              <h2 class="proffesional__subtitle">Profesjonalne podejście</h2>
-              <p class="proffesional__paragraph">Potrzebujesz pomocy prawnej?
-                Wspólnie znajdziemy najlepsze rozwiązanie Twojego problemu.</p>
+              <h2 class="proffesional__subtitle">Profesjonalna obsługa</h2>
+              <p class="proffesional__paragraph">Zajmujemy się zarówno klientami indywidualnymi, jak i również współpracujemy z firmami. Zapewniamy obsługę prawną na
+              wysokim poziomie.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <section class="services">
+    <section class="services" id="uslugi">
       <div class="services__container container">
-        <h3 class="services__title title">Obszary działalności</h3>
-        <p class="services__subtext subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio,
-          ultrices eget auctor faucibus, accumsan
-          non elit. Nulla blandit sed massa quis fermentum.</p>
+        <h3 class="services__title title">Klientom kancelarii oferujemy kompleksową obsługę prawną</h3>
+        <p class="services__subtext subtext">Zapewniamy doradztwo na najwyższym poziomie oraz reprezentację w sądzie. Współpracujemy zarówno z klientami
+        indywidualnymi, jak i z firmami.</p>
           <div class="services__blocks">
             <div class="services__block">
               <div class="services__big">
@@ -122,10 +130,9 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Alimenty</h4>
+              <p class="services__text">Pomagamy w sprawach o alimenty, zarówno o przyznanie świadczenia, podwyższenie lub obniżenie oraz zniesienie obowiązku
+              alimentacji.</p>
             </div>
             <div class="services__block">
               <div class="services__big">
@@ -133,10 +140,8 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Odszkodowania</h4>
+              <p class="services__text">Dochodzenie odszkodowań majątkowych, komunikacyjnych, za błędy medyczne, powypadkowych, a także za szkody.</p>
             </div>
             <div class="services__block">
               <div class="services__big">
@@ -144,10 +149,9 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Podział majątku</h4>
+              <p class="services__text">Prowadzimy sprawy o ustanowienie rozdzielności majątkowej, ograniczenie wspólności oraz inne aspekty związane z
+              podziałem majątku.</p>
             </div>
             <div class="services__block">
               <div class="services__big">
@@ -155,10 +159,9 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Porady prawne</h4>
+              <p class="services__text">Chcesz dowiedzieć się więcej na temat swoich praw lub dopytać o możliwości w danej sprawie? Prowadzimy kompleksowe
+              doradztwo prawne.</p>
             </div>
             <div class="services__block">
               <div class="services__big">
@@ -166,10 +169,8 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Prawo cywilne</h4>
+              <p class="services__text">Zajmujemy się szeroko pojętym prawem cywilnym, czyli sprawy związane z prawem rzeczowym, zobowiązań, a także spadkowym.</p>
             </div>
             <div class="services__block">
               <div class="services__big">
@@ -177,22 +178,96 @@
                   <div><img src="icons/checked.png" alt="checked"></div>
                 </div>
               </div>
-              <h4 class="services__subtitle">Kancelaria adwokacka</h4>
-              <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-                eget auctor faucibus, accumsan
-                non elit. Nulla blandit sed massa quis fermentum.</p>
+              <h4 class="services__subtitle">Prawo karne</h4>
+              <p class="services__text">Pomagamy w sprawach z zakresu przestępstw przeciwko zdrowiu i życiu, wolności, rodzinie, bezpieczeństwu powszechnemu i w
+              komunikacji itp.</p>
+            </div>
+            <div class="services__block">
+              <div class="services__big">
+                <div class="services__round">
+                  <div><img src="icons/checked.png" alt="checked"></div>
+                </div>
+              </div>
+              <h4 class="services__subtitle">Prawo spadkowe</h4>
+              <p class="services__text">Adwokat może pomóc w sprawach o stwierdzenie nabycia spadku, sporządzaniu testamentów, wydziedziczeniu, odrzuceniu
+              spadku itp.</p>
+            </div>
+            <div class="services__block">
+              <div class="services__big">
+                <div class="services__round">
+                  <div><img src="icons/checked.png" alt="checked"></div>
+                </div>
+              </div>
+              <h4 class="services__subtitle">Rozwód</h4>
+              <p class="services__text">Prawnik zajmie się przygotowaniem odpowiednich pism i reprezentacją w sądzie oraz profesjonalnie przeprowadzi przez
+              postępowanie rozwodowe.</p>
+            </div>
+            <div class="services__block">
+              <div class="services__big">
+                <div class="services__round">
+                  <div><img src="icons/checked.png" alt="checked"></div>
+                </div>
+              </div>
+              <h4 class="services__subtitle">Upadłość konsumencka</h4>
+              <p class="services__text">Sprawy związane z upadłością konsumencką są coraz bardziej powszechne, więc potrzebna jest pomoc doświadczonego
+              prawnika.</p>
             </div>
           </div>
+      </div>
+    </section>
+    <section class="text grey">
+      <div class="text__container container">
+        <h1 class="text__heading title">Prawnik Szczecin - Kancelaria Adwokacka w Szczecinie</h1>
+        <h2>Kancelaria adwokacka - Adwokat Szczecin</h2>
+        <h3 class="text__subheading">Profesjonalizm - wiedza - doświadczenie</h3>
+        <p>Nasi adwokaci specjalizujący się w danym zakresie prawa, już od pierwszej konsultacji zapewnią klientom wsparcie
+          poprzez profesjonalne podejście do każdego problemu prawnego. Kierując się posiadaną wiedzą, a także korzystając ze
+          swojego doświadczenia dobry prawnik indywidualnie przeanalizuje sytuację, a następnie przedstawi wszelkie możliwe
+          rozwiązania, tak aby nawet najbardziej skomplikowaną sprawę zakończyć sukcesem klienta.</p>
+        
+        <p>Uważamy, że podstawą jak najkorzystniejszego rozwiązania problemu prawnego jest relacja między adwokatem a klientem -
+          poparta wzajemnym zaufaniem oraz stałym kontaktem z kancelarią.</p>
+        
+        <p>Klientów kancelarii zapewniamy, że ujawnione przez nich dokumenty, wiedza i informacje, a także wszelkie czynności
+          podejmowane w celu zabezpieczenia ich interesów pozostają chronione tajemnicą adwokacką.</p>
+        <h2>Kompleksowe usługi prawne - skuteczna kancelaria adwokacka Szczecin</h2>
+        
+        <p>Kompleksowość świadczonych przez kancelarię adwokacką usług polega przede wszystkim na całokształcie podejmowanych
+          przez naszych adwokatów działań na rzecz osób fizycznych, podmiotów gospodarczych oraz pomocy przedsiębiorcom w takich
+          sprawach jak chociażby <a href="http://adwokatmurawski.pl/upadlosc-konsumencka-szczecin">upadłość konsumencka
+            Szczecin</a>.</p>
+        
+        <h3>Klientom kancelarii oferujemy kompleksową obsługę prawną, a w szczególności:</h3>
+        
+        <p>
+        <ul>
+          <li>doradztwo prawne - <a href="http://adwokatmurawski.pl/porady-prawne-szczecin">porady prawne</a> ustne oraz pisemne
+            opiniowanie dokumentów,</li>
+          <li>udział w czynnościach poza procesowych oraz procesowych,</li>
+          <li>prowadzimy spory sądowe,</li>
+          <li>windykacja należności,</li>
+          <li>przygotowanie, weryfikowanie i analiza umów,</li>
+          <li>sporządzanie pism poza procesowych i procesowych,</li>
+          <li>reprezentowanie w negocjacjach,</li>
+          <li>reprezentowanie w mediacjach,</li>
+          <li>udział w posiedzeniach organów spółek,</li>
+          <li>stała obsługa prawna.</li>
+        </ul>
+        </p>
+        
+        <p>Skuteczność świadczonych przez kancelarię usług możliwa jest dzięki współpracy pomiędzy wieloma kancelariami, które
+          posiadają wieloletnie doświadczenie we wszystkich istotnych dziedzinach prawa. Kancelaria oferuje pełen profesjonalizm
+          oraz indywidualne podejście w każdej sytuacji.</p>
       </div>
     </section>
     <section class="aboutme">
       <div class="aboutme__container container">
         <div class="aboutme__wrapper">
           <div class="aboutme__image">
-            <img src="images/whyme.jpg" alt="whyme">
+            <img src="images/whyme.webp" alt="whyme">
           </div>
           <div class="aboutme__text">
-            <h2 class="aboutme__title title">Dlaczego wybierzesz mnie?</h2>
+            <h2 class="aboutme__title title">Dlaczego nawiązać z nami współpracę?</h2>
             <p class="aboutme__paragraph responsive__text">Właściciel Kancelarii adwokackiej, adwokat Robert Murawski ukończył studia prawnicze na Wydziale Prawa i Administracji
             Uniwersytetu Szczecińskiego, a następnie odbył aplikację adwokacką przy Okręgowej Radzie Adwokackiej w Szczecinie
             zwieńczoną egzaminem adwokackim z oceną bardzo dobrą.</p>
@@ -201,12 +276,12 @@
             prawnych życia codziennego.</p>
             <p class="aboutme__paragraph responsive__text">W następnych latach, już pod patronatem Dziekana Okręgowej Rady Adwokackiej adw. Włodzimierza Łyczywka, występował w
             sprawach z zakresu prawa karnego, karnego gospodarczego i skarbowego, prawa gospodarczego oraz rodzinnego i spadkowego.</p>
-            <button class="button aboutme__button">Dowiedź się więcej</button>
+            <a href="o-mnie.html" class="button aboutme__button">Dowiedź się więcej</a>
           </div>
         </div>
       </div>
     </section>
-    <section class="work">
+    <!-- <section class="work">
       <div class="work__container container">
         <h3 class="services__title title">Współpraca</h3>
         <p class="services__subtext subtext">Kancelaria Adwokacka adw. Roberta Murawskiego w prowadzonych zamiejscowo
@@ -233,7 +308,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="info">
       <div class="info__wrapper">
         <div class="info__part red">
@@ -274,7 +349,93 @@
         </div>
       </div>
     </div>
-    <section class="faq">
+    <section class="text grey">
+      <div class="text__container container">
+        <h3>Nasza kancelaria prawna w Szczecinie świadczy kompleksowe usługi prawnicze w następujących dziedzinach:</h3>
+        
+        <p>
+        <ul>
+          <li>prawa karnego, w tym sprawy karne gospodarcze i prawo karne skarbowe (sprawdź  <a
+              href="http://adwokatmurawski.pl/prawo-karne-szczecin">adwokat Szczecin prawo karne</a>),</li>
+          <li>prawa cywilnego, w tym sprawy z zakresu prawa spadkowego oraz sprawy odszkodowawcze np. <a
+              href="http://adwokatmurawski.pl/odszkodowania-szczecin">dochodzenie odszkodowania</a>,</li>
+          <li>prawa rodzinnego i opiekuńczego, w tym <a href="http://adwokatmurawski.pl/rozwod-szczecin">sprawy rozwodowe w
+              Szczecinie</a>, o <a href="http://adwokatmurawski.pl/alimenty-szczecin">alimenty</a> i <a
+              href="http://adwokatmurawski.pl/podzial-majatku-szczecin">podział majątku</a>, umowy majątkowe np. rozdzielność
+            majątkowa,</li>
+          <li>prawa medycznego, w tym dochodzenie odszkodowań, których źródłem są błędy medyczne,</li>
+          <li>prawo administracyjne,</li>
+          <li>prawo gospodarcze,</li>
+          <li>prawo budowlane, w tym procesy inwestycyjno-budowlane,</li>
+          <li>prawo nieruchomości,</li>
+          <li>prawo pracy, w tym prawo ubezpieczeń społecznych,</li>
+          <li>prawo spółek handlowych, w tym ich zakładanie, przekształcanie, łączenie i podział,</li>
+          <li>kompleksowa obsługa prawna firm.</li>
+        </ul>
+        </p>
+        
+        <h2>Pomoc prawna na terenie Polski</h2>
+        
+        <p>Kancelaria adwokacka - adwokat Robert Murawski posiada stałą siedzibę na terenie Szczecina. Naszej działalności nie
+          koncentrujemy jedynie w jego granicach. Świadczymy kompleksową pomoc prawną zarówno w województwie zachodniopomorskim,
+          jak również na terenie całego kraju.</p>
+        
+        <p>Jeżeli szukasz adwokata i kancelarii w Szczecinie oraz w całej Polsce, skontaktuj się z nami i powierz prowadzenie
+          sprawy kancelarii adwokackiej, która zapewni Ci ochronę i bezpieczeństwo.</p>
+        
+        <h2>Obsługa prawna klientów indywidualnych</h2>
+        
+        <p>Zakres usług kancelarii świadczonych na rzecz klientów indywidualnych obejmuje między innymi pomoc polegającą na
+          udzielaniu porad, sporządzaniu i weryfikacji dokumentów oraz reprezentowaniu klientów przed sądami powszechnymi w
+          rozmaitych dziedzinach takich jak prawo karne, prawo rodzinne, <a
+            href="http://adwokatmurawski.pl/prawo-cywilne-szczecin">prawo cywilne</a>, prawo handlowe, a także <a
+            href="http://adwokatmurawski.pl/prawo-spadkowe-szczecin">prawo spadkowe</a>.</p>
+        
+        <h2>Obsługa prawna firm i przedsiębiorców</h2>
+        
+        <p>W zależności od potrzeb usługi pomocy prawnej świadczymy doraźnie lub w zakresie stałej obsługi prawnej, rzetelnie
+          zabezpieczając interesy naszych Klientów.</p>
+        
+        <p>Kancelaria z pełnym zaangażowaniem udziela porad prawnych, a także reprezentuje na sali sądowej zróżnicowane podmioty
+          gospodarcze, działając na rzecz m.in:</p>
+        
+        <p>
+        <ul>
+          <li>spółdzielni,</li>
+          <li>wspólnot mieszkaniowych,</li>
+          <li>spółek osobowych i kapitałowych,</li>
+          <li>jednostek samorządu terytorialnego,</li>
+          <li>innych podmiotów.</li>
+        </ul>
+        </p>
+        
+        <h2>Kancelaria prawnicza Szczecin - stała obsługa prawna</h2>
+        
+        <p>Nasza Kancelaria adwokacka w Szczecinie oferuje również stałą obsługę prawną osobom prywatnym, przedsiębiorcom, a
+          także innym podmiotom gospodarczym.</p>
+        
+        <p>Warunki stałej obsługi prawnej ustalane są indywidualnie w odrębnej umowie.</p>
+        
+        <p>Dzięki stałej obsłudze prawnika zyskujesz kompletny zakres usług prawnych, a nadto stabilizację i bezpieczeństwo w
+          zakresie ochrony swoich interesów.</p>
+        
+        <p>Zapewniamy stały kontakt z prawnikiem, bez konieczności przyjeżdżania do siedziby kancelarii adwokackiej na
+          konsultacje prawne.</p>
+        
+        <h2>Adwokat w Szczecinie - wysokość wynagrodzenia</h2>
+        
+        <p>Wynagrodzenie adwokata za świadczone usługi ustalane jest indywidualnie z każdym klientem na podstawie odrębnej
+          umowy.</p>
+        
+        <p>Wysokość wynagrodzenia dobrego adwokata uzależniona jest od stopnia złożoności zagadnienia, nakładu pracy prawnika,
+          czasu trwania sprawy, a także charakteru współpracy.</p>
+        
+        <p>Współpracując z klientami kancelarie prawnicze stosują różne formy rozliczeń - od tradycyjnego rozliczenia za każdą
+          sprawę, przez stawkę godzinową, kończąc na zryczałtowanym wynagrodzeniu miesięcznym. Skontaktuj się z nami i dowiedz
+          się więcej.</p>
+      </div>
+    </section>
+<!--     <section class="faq">
       <div class="faq__container container">
         <h3 class="faq__title title">FAQs</h3>
         <p class="faq__subtext subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices eget auctor faucibus, accumsan
@@ -393,13 +554,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="contact">
       <div class="contact__container container">
         <h3 class="contact__title title">Kontakt</h3>
-        <p class="contact__subtext subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices
-          eget auctor faucibus, accumsan
-          non elit. Nulla blandit sed massa quis fermentum.</p>
+        <p class="contact__subtext subtext">Skontaktuj się z naszą Kancelarią, żeby umówić się na konsultację. Zapraszamy do kontaktu zarówno mailowego, jak i
+        telefonicznego.</p>
         <div class="contact__contacts">
           <div class="contact__element">
             <div class="contact__round">
@@ -438,10 +598,10 @@
         <div class="subfooter__text">
           <h3 class="subfooter__title">Masz pytania?</h3>
           <p class="subfooter__paragraph">Skontaktuj się z naszą szczecińską kancelarią adwokacką</p>
-          <button class="button subfooter__button">Skontaktuj się z nami</button>
+          <a href="kontakt.html" class="button subfooter__button">Skontaktuj się z nami</a>
         </div>
         <div class="subfooter__image">
-          <img src="images/footer_robert_murawski.png" alt="murawski">
+          <img src="images/footer_robert_murawski.webp" alt="Adwokat Murawski">
         </div>
       </div>
     </div>
@@ -450,20 +610,19 @@
     <div class="footer__container container">
       <div class="footer__wrapper">
         <div class="footer__about">
-          <h4 class="footer__title">O mnie</h4>
-          <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor odio, ultrices eget
-            auctor faucibus, accumsan
-            non elit. Nulla blandit sed massa quis fermentum.</p>
+          <h4 class="footer__title">O Kancelarii</h4>
+          <p class="footer__text">Działamy na terenie Szczecina i okolic, a także w całej Polsce, zajmując się nawet najtrudniejszymi sprawami z zakresu
+          prawa cywilnego, rodzinnego oraz karnego.</p>
         </div>
         <div class="footer__links">
           <h4 class="footer__title">Linki</h4>
           <nav class="footer__navigation">
             <ul class="footer__menu">
-              <li class="footer__li"><a href="" class="footer__link">Strona wyborcza</a></li>
-              <li class="footer__li"><a href="" class="footer__link">O mnie</a></li>
-              <li class="footer__li"><a href="" class="footer__link">Kancelaria</a></li>
-              <li class="footer__li"><a href="" class="footer__link">Specjalizacje</a></li>
-              <li class="footer__li"><a href="" class="footer__link">Kontakt</a></li>
+              <li class="footer__li"><a href="/" class="footer__link">Główna</a></li>
+              <li class="footer__li"><a href="o-mnie.html" class="footer__link">O mnie</a></li>
+              <li class="footer__li"><a href="kancelaria.html" class="footer__link">Kancelaria</a></li>
+              <li class="footer__li"><a href="specjalizacje.html" class="footer__link">Specjalizacje</a></li>
+              <li class="footer__li"><a href="kontakt.html" class="footer__link">Kontakt</a></li>
             </ul>
           </nav>
         </div>
@@ -471,7 +630,7 @@
           <h4 class="footer__title">Kontakt</h4>
           <div class="footer__contact">
             <div class="footer__icon">
-              <img src="icons/phone_white.png" alt="phone">
+              <img src="icons/phone_white.png" alt="telefon">
             </div>
             <div class="footer__right">
               <a href="tel:+48508668533" class="footer__main">+48 508 668 533</a>
@@ -480,7 +639,7 @@
           </div>
           <div class="footer__contact">
             <div class="footer__icon">
-              <img src="icons/phone_loc.png" alt="location">
+              <img src="icons/phone_loc.png" alt="lokalizacja">
             </div>
             <div class="footer__right">
               <span class="footer__main">Szczecin</span>
@@ -489,7 +648,7 @@
           </div>
           <div class="footer__contact">
             <div class="footer__icon">
-              <img src="icons/phone_time.png" alt="time">
+              <img src="icons/phone_time.png" alt="czas pracy">
             </div>
             <div class="footer__right">
               <span class="footer__main">Pon-Pt 9.00 - 17.00</span>
@@ -501,7 +660,7 @@
     </div>
   </footer>
   <div class="copyright">
-    <p>Adwokat Murawski 2022 © Wszelkie prawa zastrzeżone.</p>
+    <p>Adwokat Murawski 2023 © Wszelkie prawa zastrzeżone.</p>
   </div>
   <script src="js/script.js"></script>
 </body>
