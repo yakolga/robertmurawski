@@ -1,6 +1,6 @@
 .quote {
   padding: 70px 0 0 0;
-  background-image: url("../images/bground.png");
+  background-image: url("../images/bground.webp");
   background-position: center;
   background-repeat: no-repeat;
   &__wrapper {
@@ -22,6 +22,7 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
   }
   &__icon {
     width: 71px;
@@ -31,9 +32,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
   }
   &__image {
     margin-bottom: 22px;
+    img {
+      width: 60px;
+      height: 60px;
+    }
   }
   &__title {
     font-weight: 600;

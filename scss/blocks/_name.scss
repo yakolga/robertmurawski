@@ -1,0 +1,25 @@
+.name {
+  padding-top: 144px;
+  background-color: var(--second-color);
+  &__heading {
+    padding: 38px 0;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    color: var(--white-color);
+  }
+  @media (max-width: 850px) {
+    padding-top: 103px;
+    &__heading {
+      padding: 22px 0;
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    padding-top: 152px;
+  }
+  @media (max-width: 550px) {
+    padding-top: 100px;
+  }
+}

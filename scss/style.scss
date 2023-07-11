@@ -23,6 +23,7 @@ a {
 
 .button {
   padding: 10px 40px;
+  display: inline-block;
   border: none;
   background-color: var(--main-color);
   text-transform: uppercase;
@@ -73,6 +74,63 @@ a {
   --white-color: #FFFFFF;
 }
 
+.sample {
+  font-family: Dancing Script;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-color);
+  @media (max-width: 769px) {
+    font-size: 35px;
+  }
+}
+
+.txt {
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    @media (max-width: 769px) {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 25px;
+    }
+  }
+}
+
+.arrow {
+  border: solid var(--white-color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  width: 7px;
+  height: 7px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
 @import "blocks/header";
 @import "blocks/main";
 @import "blocks/services";
@@ -85,3 +143,12 @@ a {
 @import "blocks/contact";
 @import "blocks/subfooter";
 @import "blocks/footer";
+@import "blocks/text";
+@import "blocks/name";
+@import "blocks/omnie";
+@import "blocks/receipt";
+@import "blocks/content";
+
+.block {
+  display: block;
+}

@@ -33,8 +33,12 @@
     margin-bottom: 15px;
   }
   @media (max-width: 769px) {
+    margin-top: 0;
     &__paragraph {
       max-width: 380px;
+    }
+    &__image {
+      display: none;
     }
   }
   @media (max-width: 426px) {
