@@ -21,6 +21,14 @@
   &__button {
     margin-top: 40px;
   }
+  @media (max-width: 769px) {
+    &__image {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
   @media (max-width: 852px) {
     &__wrapper {
       flex-direction: column;
