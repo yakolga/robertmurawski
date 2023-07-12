@@ -21,7 +21,6 @@
     padding: 50px 28px 28px 28px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 30%;
     margin-top: 80px;
   }
   &__big {
@@ -65,11 +64,20 @@
     color: var(--text-color);
     text-align: center;
   }
+  &__link {
+    width: 30%;
+    &:hover {
+      .services__subtitle {
+        transition: 0.3s all;
+        color: var(--main-color);
+      }
+    }
+  }
   @media (max-width: 1024px) {
     padding-top: 75px;
   
-    &__block {
-      width: 40%;
+    &__link {
+      width: 100%;
     }
   }
   @media (max-width: 769px) {
