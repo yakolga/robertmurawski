@@ -96,6 +96,7 @@
     }
   }
   @media (max-width: 769px) {
+    background-image: url('../images/bg_mobilne.webp');
     padding-top: 152px;
     height: 100%;
     &__wrapper {
@@ -122,6 +123,9 @@
       img {
         width: 100%;
       }
+    }
+    &__cancelary {
+      color: var(--white-color);
     }
   }
   @media (max-width: 426px) {

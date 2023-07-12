@@ -227,12 +227,16 @@
         &-link a {
           color: var(--main-color);
         }
+        li {
+          position: relative;
+        }
       }
   
       &__link {
         width: 100%;
         color: var(--white-color);
         margin-bottom: 20px;
+        height: 3px;
       }
   
       &__nav {

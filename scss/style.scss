@@ -104,10 +104,21 @@ a {
   border: solid var(--white-color);
   border-width: 0 3px 3px 0;
   display: inline-block;
+  position: absolute;
+  right: 71px;
+  top: 5px;
   padding: 3px;
   margin-left: 10px;
   width: 7px;
   height: 7px;
+  @media (max-width: 555px) {
+    right: 31px;
+    top: 5px;
+  }
+  @media (max-width: 425px) {
+    right: 9px;
+    top: 6px;
+  }
 }
 
 .right {
