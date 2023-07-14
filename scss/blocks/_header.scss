@@ -144,6 +144,9 @@
         height: 26px;
         cursor: pointer;
       }
+      &__link {
+        max-width: 119px;
+      }
       &__li {
         margin-right: 10px;
         margin-left: 10px;
@@ -226,6 +229,7 @@
         }
         &-link a {
           color: var(--main-color);
+          max-width: 300px;
         }
         li {
           position: relative;
@@ -235,20 +239,18 @@
       &__link {
         width: 100%;
         color: var(--white-color);
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         height: 3px;
       }
-  
       &__nav {
         ul {
           li {
-            
             text-align: center;
             a {
               margin-left: 0;
               padding: 3px;
               text-align: center;
-              min-width: 70px;
+              min-height: 24px;
             }
           }
         }

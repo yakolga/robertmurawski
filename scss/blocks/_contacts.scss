@@ -1,0 +1,20 @@
+.contacts {
+  display: none;
+  background-color: var(--main-color);
+  padding: 10px 0;
+  &__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--white-color);
+    &:hover {
+      color: var(--second-color);
+    }
+    &:first-child {
+      margin-right: 15px;
+    }
+  }
+  @media (max-width: 552px) {
+    display: block;
+  }
+}

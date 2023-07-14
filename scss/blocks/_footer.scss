@@ -86,4 +86,26 @@
   font-size: 13px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.67);
+  &__inner {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.67);
+    text-decoration: underline;
+  }
+  p {
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    &__inner {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    p {
+      width: 100%;
+    }
+  }
 }

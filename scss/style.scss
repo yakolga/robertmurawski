@@ -10,6 +10,9 @@
   max-width: 1172px;
   padding: 0px 10px;
   margin: 0 auto;
+  @media (max-width: 500px) {
+    padding: 0 20px;
+  }
 }
 
 ul,
@@ -159,6 +162,7 @@ a {
 @import "blocks/omnie";
 @import "blocks/receipt";
 @import "blocks/content";
+@import "blocks/contacts";
 
 .block {
   display: block;
